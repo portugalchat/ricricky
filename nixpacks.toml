@@ -1,8 +1,0 @@
-[providers]
-node = true
-
-[phases.build]
-cmds = ['npm install', 'npm run build:client', 'npm run build:server']
-
-[start]
-cmd = 'npm start'
